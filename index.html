@@ -9,41 +9,48 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="shortcut icon" href="https://github.com/MikeTarkington/mtpersonalsite/blob/gh-pages/Hosted%20Photos/MT-favicon.jpg?raw=true"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Mike</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
+  <a name="home-anchor"></a>
+  <div class="navbar-fixed">
+    <nav class="blue" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#home-anchor" class="header brand-logo white-text">MT</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="white-text" href="#projects-anchor">Projects</a></li>
+          <li><a class="white-text" href="#resume-anchor">Resume</a></li>
+          <li><a class="white-text" href="#contact-anchor">Contact</a></li>
+        </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+<!-- mobile navigation needs work... -->
+        <!-- <ul id="nav-mobile" class="side-nav"> -->
+          <!-- <li><a href="#projects-anchor">Projects</a></li>
+          <li><a href="#resume-anchor">Resume</a></li>
+          <li><a href="#contact-anchor">Contact</a></li> -->
+        <!-- </ul> -->
+        <!-- <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> -->
+      </div>
+    </nav>
+  </div>
 
+  <br><br><br>
   <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container header-container">
         <br><br>
         <h2 class="header center col s12 dark index-banner-text">Mike Tarkington</h2>
-        <h1 class="header center blue-text">Full Stack Developer</h1>
+        <h3 class="header center blue-text">Full Stack Developer</h3>
         <div class="row center">
           <h5 class="header col s12 dark index-banner-text">
             A civic technologist building web and mobile solutions for societal challenges.
           </h5>
         </div>
-        <!-- <div class="row center"> -->
-          <!-- <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div> -->
-        <!-- <br><br> -->
-
       </div>
     </div>
-    <div class="parallax"><img id="parallax-img-1" src="https://unsplash.it/1440/800?image=864" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img id="parallax-img-1" src="sf_view.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -53,11 +60,8 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <div class="circle-img-wrapper">
-
-          </div>
           <img id="circle-img" src="square_profile_img_hr.png" alt="Mike Tarkington Portrait">
-          <h4>About Me</h4>
+          <h4 class="header">About Me</h4>
           <p>I started working at age 16 while attending high school. For the better part of the past 19 years I have tackled varying combinations of simultaneous academic and professional pursuits. In 2013, I graduated from UC Berkeley where I earned high scores, and was awarded merit scholarships for leadership and entrance to a competitive internship program. In my professional development, I rose to executive level positions and have been promoted more than six times. Since 2014, I invested the majority of my efforts into founding my own non-profit civic technology startup called Digital Citizen.  I plan to continue my quest for excellence by working in web/mobile application development.</p>
         </div>
       </div>
@@ -70,7 +74,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">Advancing citizen governance and improving public service with fast and efficient tech.</h5>
+          <h5 class="header col s12 dark">Advancing citizen governance and improving public service with fast and efficient tech.</h5>
         </div>
       </div>
     </div>
@@ -80,7 +84,7 @@
 
   <div class="container">
     <div class="section">
-      <h4 class="center">Recommendations</h4>
+      <h4 class="center header">Recommendations</h4>
 
       <div class="row">
       <!--   Icon Section   -->
@@ -117,29 +121,29 @@
   </div>
 
 
+  <a name="projects-anchor"></a>
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">Building projects that are fun and can improve peoples lives.</h5>
+          <h5 class="header col s12 dark">Building projects that are fun and can improve peoples lives.</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="https://unsplash.it/1440/800?image=534" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="project_desk.jpg" alt="Unsplashed background img 2"></div>
   </div>
-
 
   <div class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12 center">
+          <h4 class="header">Projects</h4>
+          <br>
           <!--   Icon Section   -->
           <div class="row">
 
             <div class="col s12 m4">
               <div class="icon-block">
-                <!-- <h2 class="center blue-text"><i class="material-icons">settings</i></h2> -->
                 <h5 class="center">Digital Citizen</h5>
                 <p class="light center">Dec 2014 - present | Full Stack Developer</p>
 
@@ -160,7 +164,7 @@
                 <p class="light center">July 2017 - present | Full Stack Developer</p>
 
                 <p class="light center" >
-                  <a class="light center" href="https://github.com/intell-gent/pic_something" target="_blank">Demo</a> | <a class="light center" href="https://github.com/MikeTarkington/localites" target="_blank">Demo</a></p>
+                  <a class="light center" href="https://github.com/intell-gent/pic_something" target="_blank">Demo</a> | <a class="light center" href="https://github.com/MikeTarkington/localites" target="_blank">GitHub(Rails API)</a></p>
                 <p class="light center">A mobile app to encourage exploring millions of urban locations around the globe with fun and efficient interactions.</p>
                 <ul class="collection">
                     <li class="collection-item">Implemented user-centered design for a fun experience of judging photos and then creating a list of “liked” locations by “swiping right”</li>
@@ -193,16 +197,16 @@
     </div>
   </div>
 
-
+  <a name="resume-anchor"></a>
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A unique background of business management, political science scholarship, and technological skill.</h5>
+          <h5 class="header col s12 dark">A unique background of business management, political science scholarship, and technological skill.</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="https://unsplash.it/1440/800?image=366" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="keyboard_mouse.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
 
@@ -212,10 +216,10 @@
       <div class="row">
         <div class="col s12">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4 class="center">Resume</h4>
+          <h4 class="center header">Resume</h4>
 
           <div class="center1">
-            <h4 class="sectionheader blue-text">Skills</h4>
+            <h4 class="sectionheader blue-text header">Skills</h4>
             <h5>Technical</h5>
             <ul class="collection">
                 <li class="collection-item">Code languages: HTML, CSS, currently learning Bootstrap, Javascript, and more</li>
@@ -237,7 +241,7 @@
         <br>
 
         <div class="center2">
-          <h4 class="sectionheader blue-text">Education</h4>
+          <h4 class="sectionheader blue-text header">Education</h4>
 
           <div class="companies">
               <center><h4 class="company">Dev Bootcamp</h4></center>
@@ -268,7 +272,7 @@
         <br>
 
         <div class="center3">
-        <h4 class="sectionheader blue-text">Employment</h4>
+        <h4 class="sectionheader blue-text header">Employment</h4>
 
             <div class="companies">
                 <h4 class="dates"></h4>
@@ -365,12 +369,12 @@
         <br>
 
         <div class="center4">
-            <h4 id="volunteerheader" class="blue-text">Volunteer</h4>
+            <h4 id="volunteerheader" class="blue-text header">Volunteer</h4>
             <ul id="volunteeritems">
                 <li class="collection-item">Code for America - San Francisco Brigade</li>
                 <li class="collection-item">WeVote San Francisco - Mobile Application</li>
                 <li class="collection-item">San Francisco Voter Drive</li>
-                <li class="collection-item">City College of San Francisco - English Academic Writing Lab Tutor</li>
+                <li class="collection-item">City College of San Francisco - English Writing Lab Tutor</li>
             </ul>
         </div>
         </div>
@@ -383,45 +387,25 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 dark">Thank you for reading! Connect with me using the info below.</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="https://unsplash.it/1440/800?image=532" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="samuel-zeller-34751.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-
-  <footer class="page-footer teal">
+  <a name="contact-anchor"></a>
+  <footer class="page-footer blue">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <div class="center">
-            <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline">
-              <li> <a href="http://www.linkedin.com/in/mtarkington" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li> <a href="http://stackoverflow.com/users/7223318/mike-tarkington" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
-              <li> <a href="https://www.facebook.com/MIKEakaWEBS" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li> <a href="https://twitter.com/DigiCitiNetwork?ref_src=twsrc%5Etfw" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li> <a href="https://github.com/MikeTarkington" target="_blank"><i class="fa fa-github"></i></a></li>
-            </ul>
-          </div>
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+      <h6 class="header col s12 dark"><i class="material-icons tiny">email </i> tarkmike@gmail.com</h6>
+      <h6 class="header col s12 dark"><i class="material-icons tiny">phone </i> 415.215.7631</h6>
+        <div class="center">
+          <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline valign-wrapper">
+            <li> <a href="http://www.linkedin.com/in/mtarkington" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li> <a href="http://stackoverflow.com/users/7223318/mike-tarkington" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+            <li> <a href="https://www.facebook.com/MIKEakaWEBS" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li> <a href="https://twitter.com/DigiCitiNetwork?ref_src=twsrc%5Etfw" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li> <a href="https://github.com/MikeTarkington" target="_blank"><i class="fa fa-github"></i></a></li>
           </ul>
         </div>
       </div>
